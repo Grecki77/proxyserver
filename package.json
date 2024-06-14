@@ -1,0 +1,12 @@
+{
+    "name": "proxyserver",
+    "version": "1.0.0",
+    "description": "A simple Node.js stack for downloading data in JSON format from websites that do not add CORS headers.",
+    "main": "proxy.js",
+    "scripts": {
+      "start": "node proxy.js"
+    },
+    "author": "Grecki77",
+    "license": "MIT"
+  }
+  

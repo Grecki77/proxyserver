@@ -1,0 +1,19 @@
+{
+    "name": "proxyserver",
+    "version": "1.0.0",
+    "description": "A simple Node.js stack for downloading data in JSON format from websites that do not add CORS headers.",
+    "main": "proxy.js",
+    "scripts": {
+      "start": "node proxy.js",
+      "bgStart":"pm2 start proxy.js --name 'proxy-app' -- --PORT=7300",
+      "bgStatus":"pm2 status",
+      "bgLog":"pm2 log 'proxy.app'",
+      "bgStop":"pm2 stop 'proxy-app'"
+    },
+    "dependencies": {
+        "pm2": "^5.2.0"
+      },
+    "author": "Grecki77",
+    "license": "MIT"
+  }
+  
