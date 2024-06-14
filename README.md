@@ -1,6 +1,5 @@
 # proxyserver
 
-618 / 5 000
 The application was written for testing Node.js applications that need to access open data sets (there is no authentication mechanism) that do not support CORS headers. Yahoo used to have this functionality (you could get such data using their server via: `http://query.yahooapis.com/v1/public/yql?q=select * from json where url="'+ url +'" &format=json&callback=?`. I used this back in 2019.
 
 Perhaps this functionality has actually been overused in the era of mobile applications based on Node.js, but sometimes it is useful locally. That's why this server was created.
